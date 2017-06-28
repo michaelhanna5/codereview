@@ -9,10 +9,11 @@ end
 
 
 
-puts rand(9)
+random
 if guess == random
 	puts "Right"
-	puts "wrong"
-elsif >= puts "Too High"
-elsif <= puts "Too Low"
+elsif guess =< random
+	puts "too low";
+else 
+	puts "too high"
 end
