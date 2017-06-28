@@ -3,6 +3,16 @@ def guess
 	guess = gets.chomp
 end
 
-guess
-puts rand(9)
+def random
+	puts rand(9)
+end
 
+
+
+puts rand(9)
+if guess == random
+	puts "Right"
+	puts "wrong"
+elsif >= puts "Too High"
+elsif <= puts "Too Low"
+end
